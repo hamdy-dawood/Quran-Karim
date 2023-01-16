@@ -12,6 +12,7 @@ class ThemeProvider extends ChangeNotifier {
   }
 }
 
+
 class MyThemes {
   static final darkTheme = ThemeData(
     platform: TargetPlatform.iOS,
