@@ -7,8 +7,6 @@ import 'core/helper_methods.dart';
 import 'provider/theme_provider.dart';
 import 'views/constant/constants.dart';
 
-bool darkMode = false;
-
 void main() {
   runApp(const MyApp());
 }
@@ -26,7 +24,6 @@ class _MyAppState extends State<MyApp> {
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       await readJson();
       await getSettings();
-      await getIsMushaf();
     });
     super.initState();
   }

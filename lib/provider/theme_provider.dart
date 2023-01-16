@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quran_karim/core/color_manager.dart';
 
 class ThemeProvider extends ChangeNotifier {
-  ThemeMode themeMode = ThemeMode.system;
+  ThemeMode themeMode = ThemeMode.light;
 
   bool get isDarkMode => themeMode == ThemeMode.dark;
 
@@ -11,7 +11,6 @@ class ThemeProvider extends ChangeNotifier {
     notifyListeners();
   }
 }
-
 
 class MyThemes {
   static final darkTheme = ThemeData(

@@ -31,20 +31,6 @@ Future getSettings() async {
   }
 }
 
-Future saveIsMushaf() async {
-  final prefs = await SharedPreferences.getInstance();
-  await prefs.setBool('view', view);
-}
-
-Future getIsMushaf() async {
-  try {
-    final prefs = await SharedPreferences.getInstance();
-    view = prefs.getBool('view')!;
-  } catch (_) {
-    view = true;
-  }
-}
-
 saveBookMark(surah, ayah) async {
   final prefs = await SharedPreferences.getInstance();
   await prefs.setInt("surah", surah);
