@@ -21,6 +21,7 @@ Light Mode:
 
 https://user-images.githubusercontent.com/77101158/212709489-fd0e0082-d4ee-41b9-82ed-0d2105d6c801.mp4
 
+
 Dark Mode:
 
 https://user-images.githubusercontent.com/77101158/212710919-e1df95b5-d793-452b-abc3-4348f389651b.mp4
