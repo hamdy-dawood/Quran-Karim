@@ -16,6 +16,9 @@ Main features:
 * [Instagram](https://www.instagram.com/hamdy_khalid_)
 * [WhatsApp](https://wa.me/+201018482081)
 
+## Download App
+https://www.mediafire.com/file/lbu5hc4ryxztfzo/Quran-Karim.apk/file
+
 ## Preview
 Light Mode:
 
