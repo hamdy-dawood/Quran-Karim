@@ -12,6 +12,7 @@ Main features:
 •  Screen layouts and eye comfort option
 
 ## Links
+* [Web App](https://hamdy-dawood.github.io/quran_web/#/)
 * [My Socials](https://znap.link/hamdy_Dawood)
 * [Instagram](https://www.instagram.com/hamdy_khalid_)
 * [WhatsApp](https://wa.me/+201018482081)
