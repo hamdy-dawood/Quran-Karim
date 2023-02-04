@@ -12,14 +12,19 @@ Main features:
 •  Screen layouts and eye comfort option
 
 ## Links
+* [Web App](https://hamdy-dawood.github.io/quran_web/#/)
 * [My Socials](https://znap.link/hamdy_Dawood)
 * [Instagram](https://www.instagram.com/hamdy_khalid_)
 * [WhatsApp](https://wa.me/+201018482081)
+
+## Download App
+https://www.mediafire.com/file/lbu5hc4ryxztfzo/Quran-Karim.apk/file
 
 ## Preview
 Light Mode:
 
 https://user-images.githubusercontent.com/77101158/212709489-fd0e0082-d4ee-41b9-82ed-0d2105d6c801.mp4
+
 
 Dark Mode:
 
