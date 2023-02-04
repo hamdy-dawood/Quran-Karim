@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                             style: TextStyle(
                               fontSize: 30,
                               color:
-                                  Theme.of(context).textTheme.bodyText1?.color,
+                                  Theme.of(context).textTheme.bodyLarge?.color,
                               fontFamily: 'quran',
                             ),
                             textDirection: TextDirection.rtl,

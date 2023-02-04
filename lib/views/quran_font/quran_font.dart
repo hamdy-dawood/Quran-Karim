@@ -18,12 +18,12 @@ class _QuranFontState extends State<QuranFont> {
       child: Scaffold(
         appBar: AppBar(
           leading:
-              BackButton(color: Theme.of(context).textTheme.bodyText1?.color),
+              BackButton(color: Theme.of(context).textTheme.bodyLarge?.color),
           elevation: 0.0,
           title: Text(
             "Font",
             style:
-                TextStyle(color: Theme.of(context).textTheme.bodyText1?.color),
+                TextStyle(color: Theme.of(context).textTheme.bodyLarge?.color),
           ),
         ),
         body: SafeArea(
@@ -40,7 +40,7 @@ class _QuranFontState extends State<QuranFont> {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 15,
-                        color: Theme.of(context).textTheme.bodyText1?.color),
+                        color: Theme.of(context).textTheme.bodyLarge?.color),
                   ),
                   Slider(
                     value: arabicFontSize,

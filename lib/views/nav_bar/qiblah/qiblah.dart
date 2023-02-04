@@ -35,7 +35,7 @@ class _QiblahScreenState extends State<QiblahScreen>
             "Qibla",
             style: TextStyle(
               fontSize: 22,
-              color: Theme.of(context).textTheme.bodyText1?.color,
+              color: Theme.of(context).textTheme.bodyLarge?.color,
             ),
           ),
           centerTitle: false,

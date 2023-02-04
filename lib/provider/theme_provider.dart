@@ -20,14 +20,14 @@ class MyThemes {
     colorScheme: const ColorScheme.dark(),
     appBarTheme: AppBarTheme(backgroundColor: ColorManager.black),
     textTheme: TextTheme(
-      bodyText1: TextStyle(color: ColorManager.white),
-      bodyText2: const TextStyle(
+      bodyLarge: TextStyle(color: ColorManager.white),
+      bodyMedium: const TextStyle(
         color: Color(0xffd8d8d8),
       ),
-      headline1: const TextStyle(
+      displayLarge: const TextStyle(
         color: Color(0x801f2226),
       ),
-      headline2: const TextStyle(
+      displayMedium: const TextStyle(
         color: Color(0xcc1f2226),
       ),
     ),
@@ -44,14 +44,14 @@ class MyThemes {
       colorScheme: const ColorScheme.light(),
       appBarTheme: AppBarTheme(backgroundColor: ColorManager.white),
       textTheme: TextTheme(
-        bodyText1: TextStyle(color: ColorManager.black),
-        bodyText2: const TextStyle(
+        bodyLarge: TextStyle(color: ColorManager.black),
+        bodyMedium: const TextStyle(
           color: Color.fromARGB(196, 44, 44, 44),
         ),
-        headline1: const TextStyle(
+        displayLarge: const TextStyle(
           color: Color.fromARGB(255, 253, 251, 240),
         ),
-        headline2: const TextStyle(
+        displayMedium: const TextStyle(
           color: Color.fromARGB(255, 253, 247, 230),
         ),
       ),

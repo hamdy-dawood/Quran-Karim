@@ -56,7 +56,7 @@ class _SurahPageState extends State<SurahPage> {
                 style: TextStyle(
                   fontSize: arabicFontSize,
                   fontFamily: arabicFont,
-                  color: Theme.of(context).textTheme.bodyText2?.color,
+                  color: Theme.of(context).textTheme.bodyMedium?.color,
                 ),
               ),
               Column(
@@ -82,7 +82,7 @@ class _SurahPageState extends State<SurahPage> {
       child: Scaffold(
         appBar: AppBar(
           leading:
-              BackButton(color: Theme.of(context).textTheme.bodyText1?.color),
+              BackButton(color: Theme.of(context).textTheme.bodyLarge?.color),
           elevation: 0.0,
           title: Text(
             "سُورَة ${widget.arabic[previousVerses]['sura_name_ar']}",
@@ -130,11 +130,11 @@ class _SurahPageState extends State<SurahPage> {
                                 color: index % 2 != 0
                                     ? Theme.of(context)
                                         .textTheme
-                                        .headline1
+                                        .displayLarge
                                         ?.color
                                     : Theme.of(context)
                                         .textTheme
-                                        .headline2
+                                        .displayMedium
                                         ?.color,
                                 borderRadius: BorderRadius.circular(12),
                               ),

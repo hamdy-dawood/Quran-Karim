@@ -10,7 +10,7 @@ class ReturnBasmalah extends StatelessWidget {
         Image.asset(
           'assets/basmalah.png',
           height: 100,
-          color: Theme.of(context).textTheme.bodyText2?.color,
+          color: Theme.of(context).textTheme.bodyMedium?.color,
         ),
       ]),
     );

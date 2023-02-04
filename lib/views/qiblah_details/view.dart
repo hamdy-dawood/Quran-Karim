@@ -40,7 +40,7 @@ class _QiblahDetailsState extends State<QiblahDetails> {
               'Please Allow Location',
               style: TextStyle(
                 fontSize: 22,
-                color: Theme.of(context).textTheme.bodyText1?.color,
+                color: Theme.of(context).textTheme.bodyLarge?.color,
               ),
             )),
           );

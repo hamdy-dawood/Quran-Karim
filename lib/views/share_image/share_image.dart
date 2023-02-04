@@ -29,12 +29,12 @@ class ShareImage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading:
-            BackButton(color: Theme.of(context).textTheme.bodyText1?.color),
+            BackButton(color: Theme.of(context).textTheme.bodyLarge?.color),
         elevation: 0.0,
         title: Text(
           "Share",
           style: TextStyle(
-            color: Theme.of(context).textTheme.bodyText1?.color,
+            color: Theme.of(context).textTheme.bodyLarge?.color,
           ),
         ),
       ),
@@ -52,7 +52,7 @@ class ShareImage extends StatelessWidget {
               "Share Image",
               style: TextStyle(
                 fontSize: 18,
-                color: Theme.of(context).textTheme.bodyText1?.color,
+                color: Theme.of(context).textTheme.bodyLarge?.color,
               ),
             ),
           ),
@@ -89,7 +89,7 @@ class ShareImage extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 30,
                           fontFamily: arabicFont,
-                          color: Theme.of(context).textTheme.bodyText2?.color,
+                          color: Theme.of(context).textTheme.bodyMedium?.color,
                         ),
                       ),
                     ),
@@ -101,7 +101,7 @@ class ShareImage extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 25,
                           fontFamily: arabicFont,
-                          color: Theme.of(context).textTheme.bodyText2?.color,
+                          color: Theme.of(context).textTheme.bodyMedium?.color,
                         ),
                       ),
                     ),
@@ -114,7 +114,7 @@ class ShareImage extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 20,
                             letterSpacing: 1.5,
-                            color: Theme.of(context).textTheme.bodyText2?.color,
+                            color: Theme.of(context).textTheme.bodyMedium?.color,
                           ),
                         ),
                         const SizedBox(
